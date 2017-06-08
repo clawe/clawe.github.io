@@ -17,7 +17,6 @@ h2 {
   color: #cc0066;
 }
 
-
 #content {
   color: #2952a3;
   margin-top: 25px;
@@ -32,6 +31,17 @@ h2 {
   background-color:  #ffff99;
   color: #cc0066;
 }
-.Bild {
-  text-align:center;
+
+.Bildzentriert img {
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  width:592px;
+  height:334px
+}
+
+.YouTubeZentriert iframe {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }

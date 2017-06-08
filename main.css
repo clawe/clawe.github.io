@@ -1,17 +1,34 @@
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #426493;
-  color: #ffffff;
-}
-h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #800000;
-}
 body {
-  font-family: Helvetica;
+  font-family: Arial, Helvetica; sans-serif;
+}
+
+#header{
+  text-align: center;
+}
+
+h1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #cc0066;
+  color: #ffff99;
+}
+
+h2 {
+  color: #cc0066;
+}
+
+
+#content {
   color: #2952a3;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Abschnitt2 {
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
   background-color:  #ffff99;
   color: #cc0066;
 }

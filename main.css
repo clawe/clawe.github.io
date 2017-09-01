@@ -8,7 +8,79 @@ h2{
 }
 
 body{
-  font-family: Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #ffffff;
   color: #51504e;
+}
+
+body {margin:25px;}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.block {
+  display: block;
+  clear:both;
+  float: none;
+}
+
+.size-third {
+  width: 236px;
+}
+.size-half {
+  width: 50%;
+}
+
+.float-left {
+  float:left;
+}
+
+.float-right {
+  float:left;
+}
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 236px;
+  height: 177px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 177px;
+  width: 236px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #426493;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
